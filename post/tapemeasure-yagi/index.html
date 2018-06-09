@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Building a 2m, 3-ele Tape-measure Yagi Antenna ">
+  <meta name="generator" content="Hugo 0.41" />
+
+  <title>2m Tape Measure Yagi Antenna &middot; George Brown</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="https://electronics.digital/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/contact/"><i class='fa fa-envelope fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/GeorgeB128" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/GeorgeBrown128" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>2m Tape Measure Yagi Antenna</h1>
+  <h2>Building a 2m, 3-ele Tape-measure Yagi Antenna </h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>16 May 2016, 13:07</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://electronics.digital/topics/radio">radio</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/antenna">antenna</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<p>Through the first half of 2016, British astronaut Tim Peake was aboard the
+ISS. During this time he carried out <a href="https://principia.ariss.org/schools/">a number of 2m FM voice contacts with
+schools.</a>.</p>
+
+<p>For the first few contacts, I used a Baofeng handy with a 2m whip antenna,
+which worked quite well for listening in, but it was not ideal. I also tried
+using my very basic \(\frac{1}{2}\lambda\) antenna. This didn&rsquo;t seem to work
+much better, and I was starting to notice some pager interference coming in
+too.</p>
+
+<p>In a bit of a hurry, I decided I should try out building the tape measure yagi
+I&rsquo;d seen mentioned before. The idea seems to have come from
+<a href="http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm">WB2HOL</a>. The next
+GB1SS contact was on the next day, so I made a quick trip to B&amp;Q and got to
+work.</p>
+
+<h1 id="construction">Construction</h1>
+
+<p>I used the nice metric guide written up by
+<a href="http://open-circuit.co.uk/wp/wb-yagi/">G3ZOI</a>. I wasn&rsquo;t able to get my hands
+on the exact parts he used, so I improvised a little.</p>
+
+<p>I was building this in my university halls room, and didn&rsquo;t have access to a
+drill, so I also built it using as few holes as possible. Those I did make
+were done mostly by driving a drill bit by hand! It was uncomfortable, but I
+was eager to get antenna built in time for the next contact.</p>
+
+<p>Cutting up the tape measure elements was a fairly easy task - it&rsquo;s all
+measured out for you! A good pair of scissors, and eye protection are
+essential though.</p>
+
+<p>For the beam I used a section of 20mm conduit, and used conduit brackets to
+hold the elements to it. The clamps on their own are a fairly loose fit, so I
+shimmed them up with PVC tape, as seen in the next image.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/cut-elements-800.jpg" alt="The elements and beam cut out.">
+</div>
+
+The elements and beam cut to size ready for assembly.</p>
+
+<p>The elements are clamped between the conduit brackets and a section of
+conduit. The section of of conduit provides plenty of friction to hold the
+element firmly in place.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/director-front-800.jpg" alt="Front detail of the director mounting.">
+</div>
+
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/director-back-800.jpg" alt="Read detail of the director mounting.">
+</div>
+
+Here you can see the detail of the mounting for the director.</p>
+
+<p>The above arrangement doesn&rsquo;t work quite as well for the driven element.
+Because they&rsquo;re only held on by one screw, the above arrangement doesn&rsquo;t hold
+the elements steady. My solution for this was to use the wall standoff
+provided with the conduit brackets to hold the bracket to the beam. The two
+elements are then shimmed between two pieces of the conduit. The lower piece
+of conduit shim is just under the element section, which is why you can&rsquo;t see
+it in the photographs.</p>
+
+<p>Once the paint is sanded off, the tape measure elements solder surprisingly
+well with a liberal addition of flux. The coax and hairpin match can then be
+added. I used RG-59 because it was the only cable I had handy that I was
+prepared to chop up. Fortunately using 75Ω coax didn&rsquo;t seem to cause too much
+of an issue.</p>
+
+<p>Finally, 7 turns of coax were wrapped tightly around the beam, with a tight
+zip-tie keeping the coils tight and neat. With that the yagi is complete.</p>
+
+<h1 id="results">Results</h1>
+
+<p>The next day, I trailed the antenna on the same site I had previously operated
+with my handy and the whip antenna. The pass geometry was not identical, but
+even so I&rsquo;d say there was a vast improvement. I heard close to the full 10
+minutes of the contact, as opposed to the 5 or so I&rsquo;d heard on previous
+tries.</p>
+
+<p>During the summer I was back at work, and able to make use of the fancy test
+equipment. I wheeled out the (huge!) HP4195 VNA with HP41952A test set.
+Together these two allow full single port network analysis. Unfortunately all
+this gear is well out of cal - and I didn&rsquo;t have the time to work through the
+cal procedure with reference standards either, so these results are more
+qualitative than quantitative. Of course, these measurements were taken
+indoors near benches and lab carts, so they&rsquo;ll also effect the results a fair
+bit.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/yagi-vna-smith-800.jpg" alt="Smith chart of the yagi.">
+</div>
+
+Smith chart of the finished antenna.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/yagi-vna-polar-800.jpg" alt="Polar chart of the yagi.">
+</div>
+
+The perhaps more useful (for the radio amateur) polar plot shows the VSWR is
+around 2 at the ISS downlink frequency, and stays below 2 for most of the 2m
+band.</p>
+
+<p>Next year at uni I&rsquo;ll hopefully have full access to some very high end RF
+equipment that should have calibrators and such. I look forward to testing
+more of my projects with this equipment. I&rsquo;ll have to try this antenna on it
+again too, and perhaps have a shot at tuning it closer.</p>
+
+<p>Overall I&rsquo;m very pleased with the results so far. Perhaps one day I&rsquo;ll try
+some ARDF and get to use the antenna for its designed purpose!</p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://electronics.digital/post/rfid-reader/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://electronics.digital/post/rfid-reader/">125kHz RFID Tag Reader</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://electronics.digital/post/gps-tracking/">GPS Vehicle Tracker</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://electronics.digital/post/gps-tracking/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://electronics.digital/js/ui.js"></script>
+
+</body>
+</html>
+

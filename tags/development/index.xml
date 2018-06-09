@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on George Brown</title>
+    <link>https://electronics.digital/tags/development/</link>
+    <description>Recent content in Development on George Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 06 Jul 2016 20:26:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://electronics.digital/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GPS Vehicle Tracker</title>
+      <link>https://electronics.digital/post/gps-tracking/</link>
+      <pubDate>Wed, 06 Jul 2016 20:26:29 +0000</pubDate>
+      
+      <guid>https://electronics.digital/post/gps-tracking/</guid>
+      <description>I frequently cover large distances by car, be it visiting friends or moving to work or university. At the moment it seems I can&amp;rsquo;t go very far without arriving at some part of the country disrupted by Smart Motorway upgrades, horrible peak time traffic, or something else entirely!
+I&amp;rsquo;m normally well equipped to deal with such hold ups, however without the ability to contact people while on the road, I can&amp;rsquo;t let them know where I am.</description>
+    </item>
+    
+    <item>
+      <title>Building a Website in Hugo</title>
+      <link>https://electronics.digital/post/website-in-hugo/</link>
+      <pubDate>Thu, 28 Apr 2016 15:32:51 +0100</pubDate>
+      
+      <guid>https://electronics.digital/post/website-in-hugo/</guid>
+      <description>For a long time, I was running a webserver that served up a few handwritten HTML pages. I&amp;rsquo;d used the Bootstrap to try and make the content a bit prettier, but it was never that great. In addition I was rarely able to add content, since writing HTML is a relatively slow and boring process.
+My friend Harry Beadle showed me how he&amp;rsquo;d started writing his website in markdown, using Jekyll to convert the files into a complete website.</description>
+    </item>
+    
+  </channel>
+</rss>

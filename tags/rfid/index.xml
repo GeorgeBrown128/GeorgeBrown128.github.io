@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rfid on George Brown</title>
+    <link>https://electronics.digital/tags/rfid/</link>
+    <description>Recent content in Rfid on George Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 29 Apr 2016 08:55:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://electronics.digital/tags/rfid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>125kHz RFID Tag Reader</title>
+      <link>https://electronics.digital/post/rfid-reader/</link>
+      <pubDate>Fri, 29 Apr 2016 08:55:30 +0000</pubDate>
+      
+      <guid>https://electronics.digital/post/rfid-reader/</guid>
+      <description>As part of my course&amp;rsquo;s labs, we had to design a RFID reader board. This project served two purposes; it let us use the skills learned in our communications system lectures, and also gain practical experience in PCB design. This project was done in partnership with Harry Beadle.
+The board is designed to operate with 125kHz tags. These have been superseded by 13&amp;nbsp;MHz ISM tags for most modern applications. 125kHz is still the standard for animal chipping though.</description>
+    </item>
+    
+  </channel>
+</rss>

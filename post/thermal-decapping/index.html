@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recovering Silicon Dies from their Packaging by Fire">
+  <meta name="generator" content="Hugo 0.41" />
+
+  <title>Thermal Decapping &middot; George Brown</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="https://electronics.digital/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/contact/"><i class='fa fa-envelope fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/GeorgeB128" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/GeorgeBrown128" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Thermal Decapping</h1>
+  <h2>Recovering Silicon Dies from their Packaging by Fire</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>19 Jun 2014, 20:24</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://electronics.digital/topics/electronics">electronics</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/electronics">electronics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/silicon">silicon</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/decapping">decapping</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<p>During my A-Levels my chemistry teacher started up an element collection. As a
+leaving gift, I felt it would be good to provide a sample of perhaps the most
+important element in electronics to the collection.</p>
+
+<p>Decapping ICs to extract their silicon goodies inside is an often discussed
+topic on electronics forums. The epoxy of a standard DIP package is remarkably
+strong and resistant stuff. An often documented method is to heat the device
+in a puddle of nitric acid. Ben Krasnow documented his version of the process
+<a href="http://benkrasnow.blogspot.co.uk/2012/08/decapping-ics-removing-epoxy-packaging.html">here.</a>
+Unfortunately, at the time of writing I don&rsquo;t have a hot plate, or
+concentrated nitric acid. Being time sensitive I decided it was best to push
+on with other options, rather than wait for postage!</p>
+
+<p>My first thought was that the epoxy may be sufficiently brittle to come away
+with a good smack from a hammer. This method initially produced promising
+results, with the epoxy cracking open. I was fearful though that the die would
+be damaged by repeated blows. At this point I recalled a method I&rsquo;d heard of
+involving use of a blowtorch to destroy the epoxy. Unfortunately, I cannot
+recall the source of this idea. It may have been an instructable, or a Picaxe
+forum post, but I can no longer find it.</p>
+
+<h2 id="attempt-1">Attempt 1</h2>
+
+<p>First, venture to the garden, arrange a stack of bricks into a BBQ of IC
+death. Fetch a blowtorch, some dead ICs, and some pliers. For these trials I
+used 14 pin DIPs.</p>
+
+<p>My first attempt was to simply blast the device with heat while rotating it in
+the flame with pliers. Eventually the epoxy started to crumble away. With the
+melting point of silicon being 1414&deg;C, I was confident my blowtorch
+wouldn&rsquo;t get things hot enough to melt the die itself. Unfortunately I was
+wrong.</p>
+
+<p>I&rsquo;d spent maybe a couple of minutes blasting it, at which point the leadframe
+melted a bit and the whole device glowed red hot. After leaving the package to
+cool I crumbled away what was left of the epoxy to find a unassuming silver
+sphere. Oh well, try again&hellip;</p>
+
+<h2 id="attempt-2">Attempt 2</h2>
+
+<p>For my second attempt I tried heating the device in bursts until the epoxy
+crumbled away. Unfortunately it seems this approach has a similar effect on
+the die!</p>
+
+<p>It appears all of the other elements in the dies significantly reduce the
+melting point.</p>
+
+<h2 id="attempt-3">Attempt 3</h2>
+
+<p>It was clear very little heat was actually needed. For my final attempt I bent
+the leads flat so the bottom of the chip was flat against the brick. This way
+we&rsquo;re only transferring heat to the top of the IC, rather than the whole
+thing.</p>
+
+<p>Next I heated the device about 3 times with 5 second bursts. (Cooking times
+vary by device size, I&rsquo;m using 14 pin DIPs.)</p>
+
+<p>The plastic will turn white in places, and will feel brittle. <span
+style="color: #ff0000">(Let it cool before you touch it!)</span> At this
+point I whack the case with the pliers until most of the plastic comes away.
+Be careful not to ping the die off across the garden!</p>
+
+<h2 id="results">Results</h2>
+
+<p>With the technique sorted, I repeated the process on two other chips, all of
+which were dead before hand. I freed a PIC16F84A, a HCF4511, and a 74HC00.
+These all yielded fairly small dies. I popped them under the microscope and
+captured a few pictures.</p>
+
+<p>First, the PIC, which has a 2x3mm; die, and features sufficiently small to get
+diffraction colours:
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/16f84a.jpg" alt="PIC1684A Die">
+</div>
+</p>
+
+<p>Next, the 4511, which is designed to deliver more power, so has a larger
+feature size. This die is 3x1.5mm;
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/4511.jpg" alt="4511 Die">
+</div>
+</p>
+
+<p>Finally, the very simple 7400. Here you can clearly see the four distinct
+gates.
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/7400.jpg" alt="7400 Die">
+</div>
+</p>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p>Overall I was fairly pleased for a project that only took a little time to do.
+If I have a chance again in the future I&rsquo;d like to refine the method
+further.</p>
+
+<p>Of course, the approach is fairly brutal. The HNO3 method leaves a device
+essentially in-tact, and as Ben showed, the device can survive the ordeal. My
+approach totally destroys the bond wires, and probably the dies too!</p>
+
+<p>I&rsquo;d also like to try a larger device so we can see more detail. Perhaps SMD
+packages could be tried too. They could potentially be easier to get into.</p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://electronics.digital/post/website-in-hugo/">Building a Website in Hugo</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://electronics.digital/post/website-in-hugo/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://electronics.digital/js/ui.js"></script>
+
+</body>
+</html>
+

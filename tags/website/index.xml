@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on George Brown</title>
+    <link>https://electronics.digital/tags/website/</link>
+    <description>Recent content in Website on George Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 15:32:51 +0100</lastBuildDate>
+    
+	<atom:link href="https://electronics.digital/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Website in Hugo</title>
+      <link>https://electronics.digital/post/website-in-hugo/</link>
+      <pubDate>Thu, 28 Apr 2016 15:32:51 +0100</pubDate>
+      
+      <guid>https://electronics.digital/post/website-in-hugo/</guid>
+      <description>For a long time, I was running a webserver that served up a few handwritten HTML pages. I&amp;rsquo;d used the Bootstrap to try and make the content a bit prettier, but it was never that great. In addition I was rarely able to add content, since writing HTML is a relatively slow and boring process.
+My friend Harry Beadle showed me how he&amp;rsquo;d started writing his website in markdown, using Jekyll to convert the files into a complete website.</description>
+    </item>
+    
+  </channel>
+</rss>

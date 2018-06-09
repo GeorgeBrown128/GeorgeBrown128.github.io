@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on George Brown</title>
+    <link>https://electronics.digital/topics/</link>
+    <description>Recent content in Topics on George Brown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 21 Sep 2016 13:31:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://electronics.digital/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Electronics</title>
+      <link>https://electronics.digital/topics/electronics/</link>
+      <pubDate>Wed, 21 Sep 2016 13:31:39 +0100</pubDate>
+      
+      <guid>https://electronics.digital/topics/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://electronics.digital/topics/hugo/</link>
+      <pubDate>Thu, 28 Apr 2016 15:32:51 +0100</pubDate>
+      
+      <guid>https://electronics.digital/topics/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>https://electronics.digital/topics/radio/</link>
+      <pubDate>Mon, 16 May 2016 13:07:43 +0000</pubDate>
+      
+      <guid>https://electronics.digital/topics/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repair</title>
+      <link>https://electronics.digital/topics/repair/</link>
+      <pubDate>Fri, 08 Jul 2016 22:52:27 +0000</pubDate>
+      
+      <guid>https://electronics.digital/topics/repair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University Project</title>
+      <link>https://electronics.digital/topics/university-project/</link>
+      <pubDate>Fri, 29 Apr 2016 08:55:30 +0000</pubDate>
+      
+      <guid>https://electronics.digital/topics/university-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://electronics.digital/topics/website/</link>
+      <pubDate>Thu, 28 Apr 2016 15:32:51 +0100</pubDate>
+      
+      <guid>https://electronics.digital/topics/website/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

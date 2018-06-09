@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Testing out some IN-12A Nixie tubes">
+  <meta name="generator" content="Hugo 0.41" />
+
+  <title>Nixie Tube Experiments &middot; George Brown</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+
+  <link rel="shortcut icon" href="https://electronics.digital/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/contact/"><i class='fa fa-envelope fa-fw'></i>Contact</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/GeorgeB128" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/GeorgeBrown128" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Nixie Tube Experiments</h1>
+  <h2>Testing out some IN-12A Nixie tubes</h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Sep 2016, 13:31</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="https://electronics.digital/topics/electronics">electronics</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/nixie">nixie</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/high-voltage">high voltage</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://electronics.digital/tags/experiment">experiment</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  
+
+<p>I recently purchased a set of 12 IN-12A (ИН-12А) <a href="https://en.wikipedia.org/wiki/Nixie_tube">nixie
+tubes</a> from Russia. I was eager to
+try them out and make sure they survived the trip. For this I built a very
+basic high voltage power supply to fire them up, and then got a bit carried
+away!</p>
+
+<p><span style="color: #ff0000">This article concerns the use of a relatively
+high voltage supply. Stay safe when working with high voltage, and do not
+proceed until you are comfortable with the required precautions. Any attempt
+to replicate these experiments is at your own risk!</span></p>
+
+<h1 id="nixie-tubes">Nixie Tubes</h1>
+
+<p>You&rsquo;ve no doubt seen nixie tubes by now. For the uninitiated, they were a
+form of numeric display used before the advent of 7-segment LED displays. A
+glass envelope encloses an mostly neon atmosphere, along with cathodes in the
+shape of numerals, and a anode grid. When a high voltage is applied between
+the anode and one of the cathodes, the numeral glows.</p>
+
+<p>There has been something of a resurgence in their use, especially by makers.
+There are hundreds of nixie tube clocks out there, along with some other novel
+uses.</p>
+
+<p>My nixies seem to be Soviet new-old-stock, produced in May of 1984. (I assume
+05⊙84 is the date code.)</p>
+
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/IN12A-800.jpg" alt="The IN-12A tube.">
+</div>
+
+
+<h1 id="the-power-supply">The Power Supply</h1>
+
+<p>Nixies are gas-discharge tubes, and consequently exhibit <a href="https://en.wikipedia.org/wiki/Negative_resistance#Negative_differential_resistance">negative differential
+resistance</a>.
+This wonderfully titled phenomenon means that in practical terms, we need a
+higher voltage to turn the tube on that we do to run it. The turn on voltage
+is called the &ldquo;striking voltage&rdquo;. Once the tube is &ldquo;struck&rdquo; a sustaining
+voltage keeps the discharge going.</p>
+
+<p>For the IN12A, the striking voltage is ≤ 170 V, while the sustaining voltage
+is ≥ 120 V. The sustaining current is ≤ 2.5 mA. The challenge here then is not
+the amount of power required, but the high voltages involved.</p>
+
+<p>The usual approach is to build a boost converter to take around 12 V and step
+it up to the required high voltage. Unfortunately I didn&rsquo;t have the
+appropriate parts to hand. The mains however is a more than capable source of
+these high voltages!</p>
+
+<p>An isolation transformer would be an ideal safe place to start this project,
+but unfortunately I don&rsquo;t own one. What I did have to hand though were a pair
+of low power 12 V transformers.</p>
+
+<p>Connecting the secondaries together and putting 240 V on one primary got me
+about 200 V at the other primary. This was expected, and is a result of a
+mixture of losses between the two transformers. The lower voltage is actually
+ideal for this project.</p>
+
+<p>A single diode half wave rectifier, a high voltage electrolytic capacitor, an
+a bleeder resistor were all that was required to obtain a 210V DC rail. The
+supply was placed inside the plastic enclosure of a 40A isolator. As an
+additional safety feature I set this up so that I could short out the supply
+while it was not switched on.</p>
+
+<h2 id="ballast-resistor">Ballast Resistor</h2>
+
+<p>To keep the nixie tube from drawing excessive current after striking, a ballast
+resistor is needed to limit the current. The calculation of this resistor is
+much like that for an LED.</p>
+
+<p>$$ \frac{V_\text{supply} - V_\text{sustain}}{I_\text{sustain}} =
+R_\text{ballast} $$</p>
+
+<p>In this case the ballast resistor can be calculated as follows:</p>
+
+<p>$$ \frac{210 \text{V} - 120\text{V} }{2.5 \text{mA}} = 36 \text{k}\Omega $$</p>
+
+<h1 id="the-first-illumination">The First Illumination</h1>
+
+<p>Keeping a close eye on the current and voltage, the supply was turned on.
+After a second the nixie popped into life and I was presented with a brilliant
+orange number 4.</p>
+
+<p>
+<div class="pure-u-1-3">
+  <img class="pure-img" src="img/empty.gif" >
+</div>
+
+<div class="pure-u-1-3">
+  <img class="pure-img" src="img/illuminated-4-800.jpg" alt="An illuminated 4 in a nixie tube.">
+</div>
+</p>
+
+<p>Some later testing revealed that \(V_\text{sustain}\) was actually 134 V. I
+ended up using a 33 kΩ resistor. This gave an operating current
+of 1.75 mA, and a more than bright enough digit to read clearly in bright
+light.</p>
+
+<h1 id="looping-digits">Looping Digits</h1>
+
+<p>After getting a single digit to light up, I was eager to start controlling the
+tube. A simple demonstration would be to cycle through the digits.</p>
+
+<p>I built up a simple 4017 counter. Unfortunately I could only find 4
+transistors capable of handling the high \(V_\text{CE}\) required, so I only got
+to loop 4 digits. I&rsquo;m still very pleased with the result so far!</p>
+
+<p>
+<div class="pure-u-1-3">
+  <img class="pure-img" src="img/empty.gif" >
+</div>
+
+<div class="pure-u-1-3">
+  <img class="pure-img" src="img/loop-400.gif" alt="A GIF loop of nixie digits.">
+</div>
+</p>
+
+<h1 id="schematic">Schematic</h1>
+
+<p>Please excuse the WhiteboardCAD schematic. It&rsquo;s not 100% complete, but it gets the point across!</p>
+
+
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/schematic-800.jpg" alt="Schematic of the finished circuit.">
+</div>
+
+
+<h1 id="power-up-characteristics">Power Up Characteristics</h1>
+
+<p>I thought it would be interesting to see the power on characteristic of the
+tube on the scope. <span style="color: #ff0000">Note that you could <a href="https://www.youtube.com/watch?v=xaELqAo4kkQ">blow
+up</a> your scope if you&rsquo;re not
+careful here!</span></p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/rise-far-800.jpg" alt="Scope trace from power on to strike.">
+</div>
+
+Here you can see the power supply voltage rising up, and then the strike point
+itself. The lumpy rise is a result of the half wave rectification.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/rise-close-800.jpg" alt="Scope trace showing around the strike point.">
+</div>
+
+Closer to the strike point, you can see the strike event itself is very
+sudden, dropping about 10 volts.</p>
+
+<p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="img/strike-800.jpg" alt="Scope trace showing the strike itself.">
+</div>
+
+Finally, the strike point itself. The strike takes about 400 µs. That&rsquo;s a
+change of about 25 kV/s.</p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://electronics.digital/post/hp1652b-power-repair/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://electronics.digital/post/hp1652b-power-repair/">HP1652B Power Inlet Repair</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://electronics.digital/js/ui.js"></script>
+
+</body>
+</html>
+
