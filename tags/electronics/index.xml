@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Electronics on George Brown</title>
-    <link>https://electronics.digital/tags/electronics/</link>
+    <link>https://www.electronics.digital/tags/electronics/</link>
     <description>Recent content in Electronics on George Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 06 Jul 2016 20:26:29 +0000</lastBuildDate>
     
-	<atom:link href="https://electronics.digital/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.electronics.digital/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GPS Vehicle Tracker</title>
-      <link>https://electronics.digital/post/gps-tracking/</link>
+      <link>https://www.electronics.digital/post/gps-tracking/</link>
       <pubDate>Wed, 06 Jul 2016 20:26:29 +0000</pubDate>
       
-      <guid>https://electronics.digital/post/gps-tracking/</guid>
+      <guid>https://www.electronics.digital/post/gps-tracking/</guid>
       <description>I frequently cover large distances by car, be it visiting friends or moving to work or university. At the moment it seems I can&amp;rsquo;t go very far without arriving at some part of the country disrupted by Smart Motorway upgrades, horrible peak time traffic, or something else entirely!
 I&amp;rsquo;m normally well equipped to deal with such hold ups, however without the ability to contact people while on the road, I can&amp;rsquo;t let them know where I am.</description>
     </item>
     
     <item>
       <title>Thermal Decapping</title>
-      <link>https://electronics.digital/post/thermal-decapping/</link>
+      <link>https://www.electronics.digital/post/thermal-decapping/</link>
       <pubDate>Thu, 19 Jun 2014 20:24:03 +0100</pubDate>
       
-      <guid>https://electronics.digital/post/thermal-decapping/</guid>
+      <guid>https://www.electronics.digital/post/thermal-decapping/</guid>
       <description>During my A-Levels my chemistry teacher started up an element collection. As a leaving gift, I felt it would be good to provide a sample of perhaps the most important element in electronics to the collection.
 Decapping ICs to extract their silicon goodies inside is an often discussed topic on electronics forums. The epoxy of a standard DIP package is remarkably strong and resistant stuff. An often documented method is to heat the device in a puddle of nitric acid.</description>
     </item>

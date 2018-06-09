@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3d Printing on George Brown</title>
-    <link>https://electronics.digital/tags/3d-printing/</link>
+    <link>https://www.electronics.digital/tags/3d-printing/</link>
     <description>Recent content in 3d Printing on George Brown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 08 Jul 2016 22:52:27 +0000</lastBuildDate>
     
-	<atom:link href="https://electronics.digital/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.electronics.digital/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HP1652B Power Inlet Repair</title>
-      <link>https://electronics.digital/post/hp1652b-power-repair/</link>
+      <link>https://www.electronics.digital/post/hp1652b-power-repair/</link>
       <pubDate>Fri, 08 Jul 2016 22:52:27 +0000</pubDate>
       
-      <guid>https://electronics.digital/post/hp1652b-power-repair/</guid>
+      <guid>https://www.electronics.digital/post/hp1652b-power-repair/</guid>
       <description>A few years back I bought myself a HP1652B, that&amp;rsquo;s an 80 channel logic analyser, with a two channel 100 MHz scope inside too! (Not bad for £150 eh?)
 In this post, I&amp;rsquo;ll cover the repair I made to the unit after it suffered a rather exciting failure.
 The Fault I&amp;rsquo;d been using the thing for a few months, until one day it went up in a cloud of very stinky smoke.</description>
